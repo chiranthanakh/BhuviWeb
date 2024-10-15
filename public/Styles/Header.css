@@ -1,0 +1,89 @@
+header {
+    background-color: #c13030;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header img {
+    width: 60px;
+    border-radius: 30px;
+  }
+
+  header .logo {
+    display: flex; 
+    align-items: center; 
+    flex-grow: 1; 
+  }
+
+  header .logo span{ 
+    align-items: center; 
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  button {
+    border-radius: 30px;
+    padding: 17px 30px;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  button i {
+    margin-right: 5px; 
+  }
+
+  header .btn1{
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 100;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+  }
+  header .btn2 {
+    margin-left: 20px;
+    transition: 0.5s;
+    font-weight: 100;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+  }
+
+  header a:hover {
+    color: #cfd2d0;
+  } 
+  
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0;
+    }
+    header img {
+      margin-top: 10px;
+    }
+    header .btn1{
+      margin-left: 10px;
+      transition: 0.5s;
+      font-weight: 100;
+      padding: 10px 20px;
+    }
+    header .btn2 {
+      margin-left: 10px;
+      transition: 0.5s;
+      font-weight: 10px;
+      padding: 10px 20px;
+    }
+    
+  }
+  
