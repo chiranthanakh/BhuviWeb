@@ -1,2 +1,2 @@
-var test = "leelavati"
-console.log(test)
+var test1 = "leelavati"
+console.log(test1)
