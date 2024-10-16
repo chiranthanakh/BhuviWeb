@@ -1,7 +1,6 @@
 export const nav = [
     {
         text:"Loan",
-        path:"/Loan",
     },
     {
         text:"Constructions",
