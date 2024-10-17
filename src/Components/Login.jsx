@@ -7,7 +7,6 @@ const LoginPage = () => {
   const [email, setEmail] = useState('');
 
   const handleUserTypeChange = (event) => {
-    console.log(event.target.value);
     setUserType(event.target.value);
   };
 
