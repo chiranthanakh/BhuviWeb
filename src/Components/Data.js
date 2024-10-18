@@ -4,18 +4,14 @@ export const nav = [
     },
     {
         text:"Constructions",
-        path:"/Construction",
     },
     {
         text:"House/Shop Rent",
-        path:"/Rent",
     },
     {
         text:"Profile",
-        path:"/Profile",
     },
     {
         text:"About Us",
-        path:"/About "
     }
 ]
