@@ -1,14 +1,12 @@
 import './App.css';
 import Header from './Components/Header'; 
 import Footer from './Components/Footer';
-import SearchBar from './Components/SearchBar'; 
-import CardLayout from './Components/CardLayout';
-import Laucher from './Components/Laucher'; 
+import SelectedPage from './Components/SelectedPage';
 import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Navbar />
 
@@ -18,11 +16,9 @@ function App() {
         </section>
       </main>
       
-      <SearchBar />
-      <CardLayout />
-      <Laucher />
+      <SelectedPage />
       <Footer />
-    </>
+    </div>
   );
 }
 

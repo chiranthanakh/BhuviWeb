@@ -27,8 +27,7 @@ const Sites = () => {
           type="text" 
           placeholder="Ex:vikaradbad,chevalla" 
           className="w-5/6 p-2 rounded-lg border focus:outline-none"/>
-        <button className="ml-2 px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-400">
-         Filter</button>
+        <button className="ml-2 px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-400">Filter</button>
       </div>
       <div className="flex p-5 mx-16 gap-5 w-72">
         <button className="shadow p-2 rounded-lg flex-1">Karnataka</button>
