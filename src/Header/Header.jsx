@@ -14,7 +14,7 @@ const Header = ({ usertype }) => {
           <span className="ml-2 font-fantasy text-[18px] sm:text-[20px] lg:text-[22px] text-white">
             Bhuvi
           </span>
-        </div>
+        </div> 
 
         <div className="flex items-center space-x-3">
           <Link to={`/login/${encodeURIComponent(usertype)}`}>

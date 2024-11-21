@@ -4,7 +4,7 @@ import { FaSearch } from 'react-icons/fa';
 const SearchBar = () => {
   return (
     <div className="bg-slate-100 sticky top-16 z-10">
-    <div className="flex justify-center items-center flex-wrap my-5 mb-10">
+    <div className="flex justify-center items-center flex-wrap p-2 my-5 mb-10">
       <input
         type="text"
         placeholder="Search..."
