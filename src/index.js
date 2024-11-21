@@ -6,7 +6,10 @@ import './tailwind.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginPage from './Components/Login';
+import PostProperty from "./Components/PostProperty";
 import Sites from "./Components/Sites";
+import DetailPage from "./Components/DetailPage";
+import LauncherDetailPage from "./Components/LauncherDetailPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -15,8 +18,11 @@ root.render(
     <Router>
       <Routes>
         <Route path="/login/:usertype" element={<LoginPage />} />
+        <Route path="/post-property" element={<PostProperty />} />
         <Route path="/" element={<App />} />
         <Route path="/Subitems/Sites" element={<Sites />} />
+        <Route path="/detail/:id" element={<DetailPage />} />
+        <Route path="/launcher-detail/:id" element={<LauncherDetailPage />} /> 
       </Routes>
     </Router>
   </React.StrictMode>

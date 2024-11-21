@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md px-4 py-3">
+    <nav className="bg-white shadow-md px-1 py-1">
       <ul className="flex justify-between items-center flex-wrap gap-1">
         {nav.map((item, index) => (
           <li 

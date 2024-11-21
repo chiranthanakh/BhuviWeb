@@ -11,7 +11,7 @@ export const nav = [
         ]
     },
     {
-        text: "property",
+        text: "Property",
         subItems: [
           { text: "Sites", path:"../Subitems/Sites" },
           { text: "Plots", path: "/Plots" },
