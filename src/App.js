@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './Components/Header'; 
+import Header from './Header/Header'; 
 import Footer from './Components/Footer';
-import SelectedPage from './Components/SelectedPage';
-import Navbar from './Components/Navbar';
+import SelectedPage from './Dashboard/SelectedPage';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   return (

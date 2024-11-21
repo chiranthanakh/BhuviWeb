@@ -5,10 +5,10 @@ import './index.css';
 import './tailwind.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginPage from './Components/Login';
+import LoginPage from './Header/Login';
 import Sites from "./Components/Sites";
-import DetailPage from "./Components/DetailPage";
-import LauncherDetailPage from "./Components/LauncherDetailPage";
+import DetailPage from "./Dashboard/DetailPage";
+import LauncherDetailPage from "./Dashboard/LauncherDetailPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
